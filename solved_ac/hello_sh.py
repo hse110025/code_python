@@ -1,2 +1,2 @@
 num = int(input(""))
-print(num*22222222)
+print(num*2222222)
