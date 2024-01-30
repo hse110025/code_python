@@ -4,6 +4,7 @@ process = 1
 ans_string=[]
 ddjdiduu
 ans=[]
+a=77
 
 
 
