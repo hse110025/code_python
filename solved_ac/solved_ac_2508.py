@@ -7,7 +7,7 @@ for kkp in range(num):
   col=int(col)
   arr=[]
   count = 0
-  k = -1
+ 
   for i in range(row):
     kp=list(input(""))
     arr.append(kp)
@@ -15,6 +15,7 @@ for kkp in range(num):
     if 'o' not in arr[i]:
       continue
     else:
+      k = -1
       for _ in range(arr[i].count("o")):
         a=arr[i][k+1:].index('o')+1+k
         k=a
